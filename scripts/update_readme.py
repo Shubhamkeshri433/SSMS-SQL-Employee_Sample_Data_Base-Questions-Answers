@@ -1,70 +1,37 @@
+\
 from pathlib import Path
+import re
 
-# Repository root
-ROOT = Path(__file__).resolve().parent.parent
+ROOT=Path(__file__).resolve().parent.parent
+README=ROOT/"README.md"
+QDIR=ROOT/"Questions"
+GOAL=100
 
-# Questions folder
-QUESTIONS_FOLDER = ROOT / "Questions"
+files=sorted(QDIR.glob("Q*.sql"), key=lambda p:int(re.search(r"\d+",p.stem).group()) if re.search(r"\d+",p.stem) else 0)
+rows=[]
+for f in files:
+    line=f.read_text(encoding="utf-8").splitlines()[0] if f.read_text(encoding="utf-8").splitlines() else ""
+    m = re.match(r"--\s*Q(\d+)\.\s*(.+)", line, re.IGNORECASE)
+    if m:
+        qno = f"Q{int(m.group(1)):03d}"   # Q1 -> Q001
+        question = m.group(2).strip()
+        rows.append(f"| {qno} | {question} | ✅ |")
+    else:
+        rows.append(f"| {f.stem} | No title | ✅ |")
+count=len(files)
+pct=round(count/GOAL*100)
+filled=int(20*pct/100)
+bar="🟩"*filled+"⬜"*(20-filled)
+latest=files[-1].stem if files else "-"
+table="| No | Business Question | Status |\n|---|---|---|\n"+"\n".join(rows)
 
-# README file
-README_FILE = ROOT / "README.md"
-
-# Get all SQL files like Q001.sql, Q002.sql...
-question_files = sorted(QUESTIONS_FOLDER.glob("Q*.sql"))
-
-# Total solved questions
-total_questions = len(question_files)
-
-# Create question list
-question_list = []
-
-for file in question_files:
-    question_list.append(f"- ✅ {file.stem}")
-
-# Latest question
-latest = question_files[-1].stem if question_files else "None"
-
-# Progress Bar
-total_goal = 100
-filled = int((total_questions / total_goal) * 20)
-progress_bar = "🟢" * filled + "🔴" * (20 - filled)
-
-# README Content
-readme = f"""# 📘 SSMS SQL Employee Sample Database Questions & Answers
-
-A collection of Microsoft SQL Server interview questions solved using an Employee Sample Database.
-
----
-
-## 📊 Progress
-
-{progress_bar}
-
-**Solved : {total_questions} / {total_goal} Questions**
-
----
-
-## 🚀 Latest Question
-
-{latest}
-
----
-
-## 📂 Solved Questions
-
-{chr(10).join(question_list)}
-
----
-
-## 🗄 Database
-
-- Employees
-- Departments
-- Projects
-- EmployeeProjects
-"""
-
-# Write README
-README_FILE.write_text(readme, encoding="utf-8")
-
-print("README Updated Successfully!")
+txt=README.read_text(encoding="utf-8")
+prog=f"{bar}\n\n**Solved:** {count}/{GOAL}  \n**Completion:** {pct}%  \n**Latest:** {latest}"
+txt=re.sub(r"<!--PROGRESS_START-->.*?<!--PROGRESS_END-->",
+           "<!--PROGRESS_START-->\n"+prog+"\n<!--PROGRESS_END-->",
+           txt,flags=re.S)
+txt=re.sub(r"<!--QUESTIONS_START-->.*?<!--QUESTIONS_END-->",
+           "<!--QUESTIONS_START-->\n"+table+"\n<!--QUESTIONS_END-->",
+           txt,flags=re.S)
+README.write_text(txt,encoding="utf-8")
+print("README updated")

@@ -1,21 +1,5 @@
-/*
-==========================================================
+--Q10. Find the lowest-paid employee in each department.
 
-Question No : Q010
-
-Business Question:
-Find the lowest-paid employee in each department.
-
-Difficulty:
-Medium
-
-Concepts Used:
-MIN(), Subquery
-
-==========================================================
-
-Answer:
-*/
 
 SELECT *
 FROM Employees

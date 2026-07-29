@@ -1,19 +1,5 @@
-/*
-========================================================
+--Q11. Rank employees by salary within each department.
 
-Question No : 001
-
-Business Question:
-Q11. Rank employees by salary within each department.
-
-Difficulty:
-INTERMEDIATE
-
-Concepts:
-COUNT(), GROUP BY
-
-========================================================
-*/
 
 SELECT 
 	EmployeeID,

@@ -1,21 +1,5 @@
-/*
-==========================================================
+--Q3. What is the average salary in every department?
 
-Question No : Q003
-
-Business Question:
-What is the average salary in every department?
-
-Difficulty:
-Easy
-
-Concepts Used:
-AVG(), GROUP BY
-
-==========================================================
-
-Answer:
-*/
 
 SELECT
     DepartmentID,

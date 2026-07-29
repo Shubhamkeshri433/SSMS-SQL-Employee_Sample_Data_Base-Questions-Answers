@@ -1,21 +1,4 @@
-/*
-==========================================================
-
-Question No : Q007
-
-Business Question:
-How many employees were hired each year?
-
-Difficulty:
-Easy
-
-Concepts Used:
-COUNT(), YEAR(), GROUP BY
-
-==========================================================
-
-Answer:
-*/
+--Q7. How many employees were hired each year?
 
 SELECT
     YEAR(HireDate) AS HireYear,

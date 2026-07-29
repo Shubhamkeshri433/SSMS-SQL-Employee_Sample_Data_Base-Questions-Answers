@@ -1,21 +1,4 @@
-/*
-==========================================================
-
-Question No : Q006
-
-Business Question:
-Which employees joined in the last 2 years?
-
-Difficulty:
-Easy
-
-Concepts Used:
-YEAR(), WHERE
-
-==========================================================
-
-Answer:
-*/
+--Q6. Which employees joined in the last 2 years?
 
 SELECT *
 FROM Employees

@@ -1,21 +1,4 @@
-/*
-==========================================================
-
-Question No : Q002
-
-Business Question:
-What is the total salary expense for each department?
-
-Difficulty:
-Easy
-
-Concepts Used:
-SUM(), GROUP BY
-
-==========================================================
-
-Answer:
-*/
+--Q2. What is the total salary expense for each department?
 
 SELECT
     DepartmentID,

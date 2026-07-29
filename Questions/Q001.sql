@@ -1,19 +1,4 @@
-/*
-========================================================
-
-Question No : 001
-
-Business Question:
-Q1. How many employees are there in each department?
-
-Difficulty:
-Easy
-
-Concepts:
-COUNT(), GROUP BY
-
-========================================================
-*/
+--Q1. How many employees are there in each department?
 
 SELECT
     DepartmentID,
