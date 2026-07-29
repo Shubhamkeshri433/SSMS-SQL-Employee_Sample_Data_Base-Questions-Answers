@@ -6,7 +6,7 @@ A collection of Microsoft SQL Server interview questions solved using an Employe
 
 ## 📊 Progress
 
-🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+🟢🟢🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
 
 **Solved : 12 / 100 Questions**
 

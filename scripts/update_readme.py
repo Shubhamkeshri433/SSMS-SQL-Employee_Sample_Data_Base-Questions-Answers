@@ -27,7 +27,7 @@ latest = question_files[-1].stem if question_files else "None"
 # Progress Bar
 total_goal = 100
 filled = int((total_questions / total_goal) * 20)
-progress_bar = "🟩" * filled + "⬜" * (20 - filled)
+progress_bar = "🟢" * filled + "🔴" * (20 - filled)
 
 # README Content
 readme = f"""# 📘 SSMS SQL Employee Sample Database Questions & Answers
