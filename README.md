@@ -8,13 +8,13 @@ A collection of Microsoft SQL Server interview questions solved using an Employe
 
 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved : 11 / 100 Questions**
+**Solved : 12 / 100 Questions**
 
 ---
 
 ## 🚀 Latest Question
 
-Q011
+Q012
 
 ---
 
@@ -31,6 +31,7 @@ Q011
 - ✅ Q009
 - ✅ Q010
 - ✅ Q011
+- ✅ Q012
 
 ---
 
