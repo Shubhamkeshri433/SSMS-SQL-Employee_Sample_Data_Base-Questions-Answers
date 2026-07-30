@@ -28,9 +28,9 @@
 <!--PROGRESS_START-->
 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 13/100  
-**Completion:** 13%  
-**Latest:** Q013
+**Solved:** 14/100  
+**Completion:** 14%  
+**Latest:** Q014
 <!--PROGRESS_END-->
 
 ---
@@ -78,6 +78,7 @@ scripts/
 | Q011 | Rank employees by salary within each department. | ✅ |
 | Q012 | Find employees earning more than their department's average salary. | ✅ |
 | Q013 | Which department has the highest average salary? | ✅ |
+| Q014 | Calculate the salary gap (Highest Salary - Lowest Salary) for every department. | ✅ |
 <!--QUESTIONS_END-->
 
 ---
