@@ -15,11 +15,11 @@
 # 📊 Progress
 
 <!--PROGRESS_START-->
-🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 14/100  
-**Completion:** 14%  
-**Latest:** Q014
+**Solved:** 15/100  
+**Completion:** 15%  
+**Latest:** Q015
 <!--PROGRESS_END-->
 
 ---
@@ -68,6 +68,7 @@ scripts/
 | Q012 | Find employees earning more than their department's average salary. | ✅ |
 | Q013 | Which department has the highest average salary? | ✅ |
 | Q014 | Calculate the salary gap (Highest Salary - Lowest Salary) for every department. | ✅ |
+| Q015 | Calculate the cumulative salary expense ordered by hire date. | ✅ |
 <!--QUESTIONS_END-->
 
 ---
