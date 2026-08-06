@@ -17,9 +17,9 @@
 <!--PROGRESS_START-->
 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 17/100  
-**Completion:** 17%  
-**Latest:** Q017
+**Solved:** 18/100  
+**Completion:** 18%  
+**Latest:** Q018
 <!--PROGRESS_END-->
 
 ---
@@ -71,6 +71,7 @@ scripts/
 | Q015 | Calculate the cumulative salary expense ordered by hire date. | ✅ |
 | Q016 | Find employees hired before the average hire date of their department. | ✅ |
 | Q017 | Which hiring year had the maximum number of employees hired? | ✅ |
+| Q018 | Calculate total salary paid by hiring year. | ✅ |
 <!--QUESTIONS_END-->
 
 ---
