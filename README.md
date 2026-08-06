@@ -17,9 +17,9 @@
 <!--PROGRESS_START-->
 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 16/100  
-**Completion:** 16%  
-**Latest:** Q016
+**Solved:** 17/100  
+**Completion:** 17%  
+**Latest:** Q017
 <!--PROGRESS_END-->
 
 ---
@@ -70,6 +70,7 @@ scripts/
 | Q014 | Calculate the salary gap (Highest Salary - Lowest Salary) for every department. | ✅ |
 | Q015 | Calculate the cumulative salary expense ordered by hire date. | ✅ |
 | Q016 | Find employees hired before the average hire date of their department. | ✅ |
+| Q017 | Which hiring year had the maximum number of employees hired? | ✅ |
 <!--QUESTIONS_END-->
 
 ---
