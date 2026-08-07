@@ -15,11 +15,11 @@
 # 📊 Progress
 
 <!--PROGRESS_START-->
-🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 18/100  
-**Completion:** 18%  
-**Latest:** Q018
+**Solved:** 20/100  
+**Completion:** 20%  
+**Latest:** Q020
 <!--PROGRESS_END-->
 
 ---
@@ -72,6 +72,8 @@ scripts/
 | Q016 | Find employees hired before the average hire date of their department. | ✅ |
 | Q017 | Which hiring year had the maximum number of employees hired? | ✅ |
 | Q018 | Calculate total salary paid by hiring year. | ✅ |
+| Q019 | Find employees hired in the same year as the highest-paid employee. | ✅ |
+| Q020 | Identify departments where every employee earns above 100,000. | ✅ |
 <!--QUESTIONS_END-->
 
 ---
