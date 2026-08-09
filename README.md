@@ -17,9 +17,9 @@
 <!--PROGRESS_START-->
 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 20/100  
-**Completion:** 20%  
-**Latest:** Q020
+**Solved:** 21/100  
+**Completion:** 21%  
+**Latest:** Q021
 <!--PROGRESS_END-->
 
 ---
@@ -74,6 +74,7 @@ scripts/
 | Q018 | Calculate total salary paid by hiring year. | ✅ |
 | Q019 | Find employees hired in the same year as the highest-paid employee. | ✅ |
 | Q020 | Identify departments where every employee earns above 100,000. | ✅ |
+| Q021 | If every employee receives a 10% raise, what will be the new payroll cost? | ✅ |
 <!--QUESTIONS_END-->
 
 ---
