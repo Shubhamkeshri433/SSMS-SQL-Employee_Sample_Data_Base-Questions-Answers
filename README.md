@@ -17,9 +17,9 @@
 <!--PROGRESS_START-->
 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 21/100  
-**Completion:** 21%  
-**Latest:** Q021
+**Solved:** 22/100  
+**Completion:** 22%  
+**Latest:** Q022
 <!--PROGRESS_END-->
 
 ---
@@ -75,6 +75,7 @@ scripts/
 | Q019 | Find employees hired in the same year as the highest-paid employee. | ✅ |
 | Q020 | Identify departments where every employee earns above 100,000. | ✅ |
 | Q021 | If every employee receives a 10% raise, what will be the new payroll cost? | ✅ |
+| Q022 | Which top 20% of employees account for the highest salary expenses? | ✅ |
 <!--QUESTIONS_END-->
 
 ---
