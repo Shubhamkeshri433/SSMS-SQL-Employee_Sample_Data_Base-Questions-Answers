@@ -17,9 +17,9 @@
 <!--PROGRESS_START-->
 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 22/100  
-**Completion:** 22%  
-**Latest:** Q022
+**Solved:** 23/100  
+**Completion:** 23%  
+**Latest:** Q023
 <!--PROGRESS_END-->
 
 ---
@@ -76,6 +76,7 @@ scripts/
 | Q020 | Identify departments where every employee earns above 100,000. | ✅ |
 | Q021 | If every employee receives a 10% raise, what will be the new payroll cost? | ✅ |
 | Q022 | Which top 20% of employees account for the highest salary expenses? | ✅ |
+| Q023 | Find employees whose salary is at least 30% above their department average. | ✅ |
 <!--QUESTIONS_END-->
 
 ---
