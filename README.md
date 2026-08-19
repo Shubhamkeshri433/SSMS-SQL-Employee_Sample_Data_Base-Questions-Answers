@@ -15,11 +15,11 @@
 # 📊 Progress
 
 <!--PROGRESS_START-->
-🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 23/100  
-**Completion:** 23%  
-**Latest:** Q023
+**Solved:** 26/100  
+**Completion:** 26%  
+**Latest:** Q026
 <!--PROGRESS_END-->
 
 ---
@@ -77,6 +77,9 @@ scripts/
 | Q021 | If every employee receives a 10% raise, what will be the new payroll cost? | ✅ |
 | Q022 | Which top 20% of employees account for the highest salary expenses? | ✅ |
 | Q023 | Find employees whose salary is at least 30% above their department average. | ✅ |
+| Q024 | Identify salary outliers using: Salary > Average Salary + (2 × Standard Deviation) | ✅ |
+| Q025 | Calculate the estimated annual payroll cost for every department. | ✅ |
+| Q026 | Which employees have completed more than 3 years in the company? | ✅ |
 <!--QUESTIONS_END-->
 
 ---
