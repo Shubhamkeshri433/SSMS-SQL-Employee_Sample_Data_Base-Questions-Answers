@@ -15,11 +15,11 @@
 # 📊 Progress
 
 <!--PROGRESS_START-->
-🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 26/100  
-**Completion:** 26%  
-**Latest:** Q026
+**Solved:** 30/100  
+**Completion:** 30%  
+**Latest:** Q030
 <!--PROGRESS_END-->
 
 ---
@@ -80,6 +80,10 @@ scripts/
 | Q024 | Identify salary outliers using: Salary > Average Salary + (2 × Standard Deviation) | ✅ |
 | Q025 | Calculate the estimated annual payroll cost for every department. | ✅ |
 | Q026 | Which employees have completed more than 3 years in the company? | ✅ |
+| Q027 | Calculate the average employee tenure for every department. | ✅ |
+| Q028 | Which department has the oldest workforce based on hire date? | ✅ |
+| Q029 | Which department spends the highest salary amount per employee? | ✅ |
+| Q030 | Predict next year's payroll assuming every employee gets a 7% increment. | ✅ |
 <!--QUESTIONS_END-->
 
 ---
