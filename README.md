@@ -17,9 +17,9 @@
 <!--PROGRESS_START-->
 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 30/100  
-**Completion:** 30%  
-**Latest:** Q030
+**Solved:** 32/100  
+**Completion:** 32%  
+**Latest:** Q032
 <!--PROGRESS_END-->
 
 ---
@@ -84,6 +84,8 @@ scripts/
 | Q028 | Which department has the oldest workforce based on hire date? | ✅ |
 | Q029 | Which department spends the highest salary amount per employee? | ✅ |
 | Q030 | Predict next year's payroll assuming every employee gets a 7% increment. | ✅ |
+| Q031 | Show every employee along with their department name. | ✅ |
+| Q032 | Count the number of employees in each department. | ✅ |
 <!--QUESTIONS_END-->
 
 ---
