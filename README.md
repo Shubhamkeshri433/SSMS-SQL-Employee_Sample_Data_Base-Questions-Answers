@@ -17,9 +17,9 @@
 <!--PROGRESS_START-->
 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 32/100  
-**Completion:** 32%  
-**Latest:** Q032
+**Solved:** 33/100  
+**Completion:** 33%  
+**Latest:** Q033
 <!--PROGRESS_END-->
 
 ---
@@ -86,6 +86,7 @@ scripts/
 | Q030 | Predict next year's payroll assuming every employee gets a 7% increment. | ✅ |
 | Q031 | Show every employee along with their department name. | ✅ |
 | Q032 | Count the number of employees in each department. | ✅ |
+| Q033 | Which department has the highest total salary expense? | ✅ |
 <!--QUESTIONS_END-->
 
 ---
