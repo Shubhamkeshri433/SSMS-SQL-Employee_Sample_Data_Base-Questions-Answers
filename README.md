@@ -15,11 +15,11 @@
 # 📊 Progress
 
 <!--PROGRESS_START-->
-🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-**Solved:** 33/100  
-**Completion:** 33%  
-**Latest:** Q033
+**Solved:** 40/100  
+**Completion:** 40%  
+**Latest:** Q040
 <!--PROGRESS_END-->
 
 ---
@@ -87,6 +87,13 @@ scripts/
 | Q031 | Show every employee along with their department name. | ✅ |
 | Q032 | Count the number of employees in each department. | ✅ |
 | Q033 | Which department has the highest total salary expense? | ✅ |
+| Q034 | Find employees who are not assigned to any project. | ✅ |
+| Q035 | Which employees are working on more than one project? | ✅ |
+| Q036 | Show each project with the total number of assigned employees. | ✅ |
+| Q037 | Which project has the highest number of employees assigned? | ✅ |
+| Q038 | Show employees and the names of the projects they are working on. | ✅ |
+| Q039 | Find projects that currently have no employees assigned. | ✅ |
+| Q040 | Which department has assigned the most employees to projects? | ✅ |
 <!--QUESTIONS_END-->
 
 ---
